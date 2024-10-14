@@ -72,3 +72,29 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore Intermediate and Derived Data Cache folders
+/Intermediate/
+/DerivedDataCache/
+  
+# Ignore Binaries
+/Binaries/
+
+# Ignore Saved folder
+/Saved/
+
+# Ignore configuration files from your local environment
+/Config/DefaultEditor.ini
+/Config/DefaultEditorUserSettings.ini
+/Config/DefaultEngine.ini
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Visual Studio files
+*.sln
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.db-shm
+*.VC.VC.db-wal
